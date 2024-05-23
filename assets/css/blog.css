@@ -3,3 +3,13 @@ header {
     justify-content: space-between;
     
 }
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+  
+.dark-mode {
+     background-color: #333333;
+    color: #ffffff;
+}
