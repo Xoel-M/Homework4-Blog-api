@@ -10,7 +10,7 @@ function handleSubmit(event) {
         userName: userNameInput.value.trim(),
         title: titleInput.value.trim(),
         content: contentInput.value.trim(),
-    }; 
+    }
 
     localStorage.setItem('Data', JSON.stringify(blogData));  
 
