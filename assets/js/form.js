@@ -13,6 +13,8 @@ function handleSubmit(event) {
     }; 
 
     localStorage.setItem('Data', JSON.stringify(blogData));  
+
+    window.location.href = 'blog.html';
 }
 
 form.addEventListener('submit', handleSubmit)
